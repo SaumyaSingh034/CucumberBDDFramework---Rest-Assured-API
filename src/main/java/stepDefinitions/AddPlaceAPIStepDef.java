@@ -9,6 +9,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import payloadBuilder.DataBuilder;
+import resources.Constants;
 import utilities.RequestSpecificationBuilder;
 
 import static io.restassured.RestAssured.given;
@@ -20,6 +21,7 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
     RequestSpecification requestSpecification;
     Response response;
     DataBuilder dataBuilder = new DataBuilder();
+    Constants constantsBuilder;
 
     @Given("user add Place payload with {string} {string} {string} {string} {string} and {string}")
     public void userAddPlacePayloadWithAnd(String name, String language, String website, String accuracy, String phoneNumber, String address) {
@@ -30,9 +32,10 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
 
     }
 
-    @When("user make POST API call to {string}")
-    public void userMakePOSTAPICallTo(String arg0) {
-       response =requestSpecification.when().post("/maps/api/place/add/json").
+    @When("user make {string} API call to {string}")
+    public void userMakeAPICallTo(String httpMethod, String endpoint) {
+        constantsBuilder = Constants.valueOf(endpoint);
+       response =requestSpecification.when().post(constantsBuilder.getbasePath()).
                 then().spec(responseSpecification).extract().response();
     }
 
