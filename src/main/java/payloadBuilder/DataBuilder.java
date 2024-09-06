@@ -1,4 +1,4 @@
-package resources;
+package payloadBuilder;
 
 import pojo.AddPlace;
 import pojo.Location;
