@@ -21,11 +21,11 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
     Response response;
     DataBuilder dataBuilder = new DataBuilder();
 
-    @Given("user add Place payload")
-    public void user_add_place_payload() {
+    @Given("user add Place payload with {string} {string} {string} {string} {string} and {string}")
+    public void userAddPlacePayloadWithAnd(String name, String language, String website, int accuracy, String phoneNumber, String address) {
          responseSpecification =new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
         requestSpecification=given().spec(createRequestSpecification())
-                .body(dataBuilder.createAddPlaceRequestPayload());
+                .body(dataBuilder.createAddPlaceRequestPayload(name,language, website,accuracy,phoneNumber,address));
 
 
     }

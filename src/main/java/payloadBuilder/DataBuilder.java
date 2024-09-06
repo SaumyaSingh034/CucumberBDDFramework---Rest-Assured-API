@@ -8,14 +8,14 @@ import java.util.List;
 
 public class DataBuilder {
 
-    public AddPlace createAddPlaceRequestPayload(){
+    public AddPlace createAddPlaceRequestPayload(String name, String language, String website, int accuracy, String phoneNumber, String address){
         AddPlace addPlace  =new AddPlace();
-        addPlace.setAccuracy(50);
-        addPlace.setAddress("29, side layout, cohen 09");
-        addPlace.setLanguage("French-IN");
-        addPlace.setPhone_number("(+91) 983 893 3937");
-        addPlace.setWebsite("https://rahulshettyacademy.com");
-        addPlace.setName("Frontline house");
+        addPlace.setAccuracy(accuracy);
+        addPlace.setAddress(address);
+        addPlace.setLanguage(language);
+        addPlace.setPhone_number(phoneNumber);
+        addPlace.setWebsite(website);
+        addPlace.setName(name);
         List<String> myList =new ArrayList<String>();
         myList.add("shoe park");
         myList.add("shop");
