@@ -12,11 +12,11 @@ Multiparts:		<none>
 Body:
 {
     "accuracy": 50,
-    "name": "Frontline house",
-    "phone_number": "(+91) 983 893 3937",
-    "address": "29, side layout, cohen 09",
-    "website": "https://rahulshettyacademy.com",
-    "language": "French-IN",
+    "name": "AUTOMATION-1",
+    "phone_number": "8877668899",
+    "address": "FRANCE",
+    "website": "https://data-copy.com",
+    "language": "FRENCH-IN",
     "location": {
         "lat": -38.383494,
         "lng": 33.427362
@@ -25,4 +25,211 @@ Body:
         "shoe park",
         "shop"
     ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 06 Sep 2024 07:19:55 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "004e584e3d4531a92583d0b92b1d45a6",
+    "scope": "APP",
+    "reference": "e5f7f336e3e92636c237a577f14a08d6e5f7f336e3e92636c237a577f14a08d6",
+    "id": "e5f7f336e3e92636c237a577f14a08d6"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 100,
+    "name": "AUTOMATION-2",
+    "phone_number": "8877668899",
+    "address": "FRANCE",
+    "website": "https://testing.com",
+    "language": "SPANISH-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 06 Sep 2024 07:19:55 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "d3c68fa8f98e35edc971b17c8ed4c284",
+    "scope": "APP",
+    "reference": "8ba026420ee4193eaedfd76a7caa9f9a8ba026420ee4193eaedfd76a7caa9f9a",
+    "id": "8ba026420ee4193eaedfd76a7caa9f9a"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 90,
+    "name": "AUTOMATION-3",
+    "phone_number": "8877668899",
+    "address": "FRANCE",
+    "website": "https://filter.com",
+    "language": "HINDI-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 06 Sep 2024 07:19:55 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "378483488eaa828626b5fc25522815a4",
+    "scope": "APP",
+    "reference": "7d073fee05ffdddb6e4faa42f77e1d7c7d073fee05ffdddb6e4faa42f77e1d7c",
+    "id": "7d073fee05ffdddb6e4faa42f77e1d7c"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 10,
+    "name": "AUTOMATION-4",
+    "phone_number": "8877668899",
+    "address": "FRANCE",
+    "website": "https://sameer.com",
+    "language": "ENGLISH-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 06 Sep 2024 07:19:56 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c44a3df4395487878a39d6395bf01e95",
+    "scope": "APP",
+    "reference": "3fa160b4cb5bfd1916cedf9f1bee96f23fa160b4cb5bfd1916cedf9f1bee96f2",
+    "id": "3fa160b4cb5bfd1916cedf9f1bee96f2"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 40,
+    "name": "AUTOMATION-5",
+    "phone_number": "8877668899",
+    "address": "FRANCE",
+    "website": "https://dataset.com",
+    "language": "JAPANESE-IN",
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 06 Sep 2024 07:19:56 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f5336cf340ba9a295a16f0f035ebc4e5",
+    "scope": "APP",
+    "reference": "066af5d1a9c606abd6605ef91d371ef5066af5d1a9c606abd6605ef91d371ef5",
+    "id": "066af5d1a9c606abd6605ef91d371ef5"
 }
