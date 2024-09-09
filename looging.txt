@@ -27,7 +27,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Fri, 06 Sep 2024 07:19:55 GMT
+Date: Fri, 06 Sep 2024 09:43:46 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,10 +40,10 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "004e584e3d4531a92583d0b92b1d45a6",
+    "place_id": "bd44bf0e46a73c9f1442941173290966",
     "scope": "APP",
-    "reference": "e5f7f336e3e92636c237a577f14a08d6e5f7f336e3e92636c237a577f14a08d6",
-    "id": "e5f7f336e3e92636c237a577f14a08d6"
+    "reference": "5e9b099814de0958e6fa120d8b8225ba5e9b099814de0958e6fa120d8b8225ba",
+    "id": "5e9b099814de0958e6fa120d8b8225ba"
 }
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
@@ -74,7 +74,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Fri, 06 Sep 2024 07:19:55 GMT
+Date: Fri, 06 Sep 2024 09:43:47 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -87,10 +87,10 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "d3c68fa8f98e35edc971b17c8ed4c284",
+    "place_id": "0e18725d71f5dfe6f9217940b6a1249b",
     "scope": "APP",
-    "reference": "8ba026420ee4193eaedfd76a7caa9f9a8ba026420ee4193eaedfd76a7caa9f9a",
-    "id": "8ba026420ee4193eaedfd76a7caa9f9a"
+    "reference": "6f5d625aef30bdf12ad0dc116250f2666f5d625aef30bdf12ad0dc116250f266",
+    "id": "6f5d625aef30bdf12ad0dc116250f266"
 }
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
@@ -121,7 +121,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Fri, 06 Sep 2024 07:19:55 GMT
+Date: Fri, 06 Sep 2024 09:43:47 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -134,10 +134,10 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "378483488eaa828626b5fc25522815a4",
+    "place_id": "f48ec9521b6bb1553bc099ed15a97a28",
     "scope": "APP",
-    "reference": "7d073fee05ffdddb6e4faa42f77e1d7c7d073fee05ffdddb6e4faa42f77e1d7c",
-    "id": "7d073fee05ffdddb6e4faa42f77e1d7c"
+    "reference": "84be9a15c3f7633883b0030cf1a2ed7484be9a15c3f7633883b0030cf1a2ed74",
+    "id": "84be9a15c3f7633883b0030cf1a2ed74"
 }
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
@@ -168,7 +168,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Fri, 06 Sep 2024 07:19:56 GMT
+Date: Fri, 06 Sep 2024 09:43:47 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -181,10 +181,10 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "c44a3df4395487878a39d6395bf01e95",
+    "place_id": "580fdd1cd86de9aaa9d1b52d8764f894",
     "scope": "APP",
-    "reference": "3fa160b4cb5bfd1916cedf9f1bee96f23fa160b4cb5bfd1916cedf9f1bee96f2",
-    "id": "3fa160b4cb5bfd1916cedf9f1bee96f2"
+    "reference": "e3ad82926289f972a68c4489e773e84be3ad82926289f972a68c4489e773e84b",
+    "id": "e3ad82926289f972a68c4489e773e84b"
 }
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
@@ -215,7 +215,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Fri, 06 Sep 2024 07:19:56 GMT
+Date: Fri, 06 Sep 2024 09:43:47 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -228,8 +228,8 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "f5336cf340ba9a295a16f0f035ebc4e5",
+    "place_id": "44737ae27a6fe540d528f7ba5ff71895",
     "scope": "APP",
-    "reference": "066af5d1a9c606abd6605ef91d371ef5066af5d1a9c606abd6605ef91d371ef5",
-    "id": "066af5d1a9c606abd6605ef91d371ef5"
+    "reference": "f70738e13d140a443c272909d43665d9f70738e13d140a443c272909d43665d9",
+    "id": "f70738e13d140a443c272909d43665d9"
 }

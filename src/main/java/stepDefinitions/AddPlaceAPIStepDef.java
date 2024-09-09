@@ -25,9 +25,9 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
 
     @Given("user add Place payload with {string} {string} {string} {string} {string} and {string}")
     public void userAddPlacePayloadWithAnd(String name, String language, String website, String accuracy, String phoneNumber, String address) {
-         responseSpecification =new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
-        requestSpecification=given().spec(createRequestSpecification())
-                .body(dataBuilder.createAddPlaceRequestPayload(name,language, website,Integer.parseInt(accuracy),phoneNumber,address));
+        responseSpecification = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+        requestSpecification = given().spec(createRequestSpecification())
+                .body(dataBuilder.createAddPlaceRequestPayload(name, language, website, Integer.parseInt(accuracy), phoneNumber, address));
 
 
     }
@@ -35,8 +35,18 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
     @When("user make {string} API call to {string}")
     public void userMakeAPICallTo(String httpMethod, String endpoint) {
         constantsBuilder = Constants.valueOf(endpoint);
-       response =requestSpecification.when().post(constantsBuilder.getbasePath()).
-                then().spec(responseSpecification).extract().response();
+
+        if (httpMethod.equals("POST"))
+            response = requestSpecification.when().post(constantsBuilder.getbasePath());
+        else if (httpMethod.equals("GET")) {
+
+        } else if (httpMethod.equals("PUT")) {
+
+        } else if (httpMethod.equals("DELETE")) {
+
+        } else
+            System.out.println("Please check your http Method : " + httpMethod);
+        response.then().spec(responseSpecification).extract().response();
     }
 
     @Then("user validate the status code is {int}")
@@ -49,7 +59,6 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
         assertEquals(response.jsonPath().get(key), ExpectedValue);
 
     }
-
 
 
 }
