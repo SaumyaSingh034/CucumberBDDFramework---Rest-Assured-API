@@ -24,7 +24,7 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
     Response response;
     DataBuilder dataBuilder = new DataBuilder();
     Constants constantsBuilder;
-    static String place_id;
+    public static String place_id;
 
     @Given("user add Place payload with {string} {string} {string} {string} {string} and {string}")
     public void userAddPlacePayloadWithAnd(String name, String language, String website, String accuracy, String phoneNumber, String address) {
