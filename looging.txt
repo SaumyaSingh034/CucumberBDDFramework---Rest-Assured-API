@@ -11,12 +11,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "accuracy": 90,
-    "name": "Saumya",
-    "phone_number": "8877661122",
-    "address": "North America",
-    "website": "globant.com",
-    "language": "French",
+    "accuracy": 50,
+    "name": "AUTOMATION-1",
+    "phone_number": "8877668899",
+    "address": "FRANCE",
+    "website": "https://data-copy.com",
+    "language": "FRENCH-IN",
     "location": {
         "lat": -38.383494,
         "lng": 33.427362
@@ -27,7 +27,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 10:56:43 GMT
+Date: Tue, 10 Sep 2024 11:02:15 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,17 +40,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "29e4010f0c571f4fc556257acdb67c5d",
+    "place_id": "8a19330117b8a8eff5c288f562840804",
     "scope": "APP",
-    "reference": "307a6200c7bcac21c7f22dd970fb50cd307a6200c7bcac21c7f22dd970fb50cd",
-    "id": "307a6200c7bcac21c7f22dd970fb50cd"
+    "reference": "1c4d6fadf1a88440cb9a693e62c9954e1c4d6fadf1a88440cb9a693e62c9954e",
+    "id": "1c4d6fadf1a88440cb9a693e62c9954e"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=29e4010f0c571f4fc556257acdb67c5d
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=8a19330117b8a8eff5c288f562840804
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=29e4010f0c571f4fc556257acdb67c5d
+				place_id=8a19330117b8a8eff5c288f562840804
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,13 +59,13 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 10:56:43 GMT
+Date: Tue, 10 Sep 2024 11:02:15 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 217
+Content-Length: 231
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
@@ -75,13 +75,13 @@ Content-Type: application/json;charset=UTF-8
         "latitude": "-38.383494",
         "longitude": "33.427362"
     },
-    "accuracy": "90",
-    "name": "Saumya",
-    "phone_number": "8877661122",
-    "address": "North America",
+    "accuracy": "50",
+    "name": "AUTOMATION-1",
+    "phone_number": "8877668899",
+    "address": "FRANCE",
     "types": "shoe park,shop",
-    "website": "globant.com",
-    "language": "French"
+    "website": "https://data-copy.com",
+    "language": "FRENCH-IN"
 }
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
@@ -96,10 +96,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "29e4010f0c571f4fc556257acdb67c5d"
+    "place_id": "8a19330117b8a8eff5c288f562840804"
 }
 HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 10:56:44 GMT
+Date: Tue, 10 Sep 2024 11:02:17 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
