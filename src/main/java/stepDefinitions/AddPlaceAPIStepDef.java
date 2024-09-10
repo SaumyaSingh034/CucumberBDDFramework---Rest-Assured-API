@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -10,6 +11,7 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import payloadBuilder.DataBuilder;
 import resources.Constants;
+import resources.ReuasableMethods;
 import utilities.RequestSpecificationBuilder;
 
 import static io.restassured.RestAssured.given;
@@ -39,6 +41,7 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
         if (httpMethod.equals("POST"))
             response = requestSpecification.when().post(constantsBuilder.getbasePath());
         else if (httpMethod.equals("GET")) {
+            response = requestSpecification.when().get(constantsBuilder.getbasePath());
 
         } else if (httpMethod.equals("PUT")) {
 
@@ -56,9 +59,17 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
 
     @Then("user validate response body {string} is {string}")
     public void user_validate_response_body_is(String key, String ExpectedValue) {
-        assertEquals(response.jsonPath().get(key), ExpectedValue);
+        assertEquals(ReuasableMethods.getJsonValue(response,key), ExpectedValue);
 
     }
 
 
+    @And("user verifies the place_Id created maps to {string} using {string}")
+    public void userVerifiesThePlace_IdCreatedMapsToUsing(String expectedName, String endpoint) {
+        String place_id = ReuasableMethods.getJsonValue(response,"place_id");
+      requestSpecification = given().spec(createRequestSpecification()).queryParam("place_id",place_id);
+      userMakeAPICallTo("GET",endpoint);
+      String actualName = ReuasableMethods.getJsonValue(response,"name");
+      assertEquals(expectedName,actualName);
+    }
 }

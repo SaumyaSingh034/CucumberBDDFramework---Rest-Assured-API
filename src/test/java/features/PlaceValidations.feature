@@ -6,6 +6,7 @@ Feature: Validating Place APIs
     Then user validate the status code is 200
     And user validate response body "status" is "OK"
     And user validate response body "scope" is "APP"
+    And user verifies the place_Id created maps to "<name>" using "GetPlaceAPI"
 
     Examples:
     |name|language|website|accuracy|phoneNumber|address|
