@@ -1,5 +1,6 @@
 Feature: Validating Place APIs
 
+  @AddPlace
   Scenario Outline: Verify if Place is being successfully added using AddPlaceAPI
     Given user add Place payload with "<name>" "<language>" "<website>" "<accuracy>" "<phoneNumber>" and "<address>"
     When user make "POST" API call to "AddPlaceAPI"
@@ -16,6 +17,7 @@ Feature: Validating Place APIs
 #    |AUTOMATION-4|ENGLISH-IN|https://sameer.com|10|8877668899|FRANCE|
 #    |AUTOMATION-5|JAPANESE-IN|https://dataset.com|40|8877668899|FRANCE|
 
+  @DeletePlace
     Scenario: Verify delete Functionality
       Given user build the delete place payload
       When user make "POST" API call to "DeletePlaceAPI"

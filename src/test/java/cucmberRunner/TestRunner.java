@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 
 @CucumberOptions(
             features = "src/test/java/features/PlaceValidations.feature",
-            glue = {"stepDefinitions"})
+            glue = {"stepDefinitions"},
+tags = "@AddPlace")
 
 public class TestRunner {
 }
