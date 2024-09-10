@@ -24,6 +24,7 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
     Response response;
     DataBuilder dataBuilder = new DataBuilder();
     Constants constantsBuilder;
+    static String place_id;
 
     @Given("user add Place payload with {string} {string} {string} {string} {string} and {string}")
     public void userAddPlacePayloadWithAnd(String name, String language, String website, String accuracy, String phoneNumber, String address) {
@@ -46,6 +47,7 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
         } else if (httpMethod.equals("PUT")) {
 
         } else if (httpMethod.equals("DELETE")) {
+            response = requestSpecification.when().post(constantsBuilder.getbasePath());
 
         } else
             System.out.println("Please check your http Method : " + httpMethod);
@@ -66,10 +68,17 @@ public class AddPlaceAPIStepDef extends RequestSpecificationBuilder {
 
     @And("user verifies the place_Id created maps to {string} using {string}")
     public void userVerifiesThePlace_IdCreatedMapsToUsing(String expectedName, String endpoint) {
-        String place_id = ReuasableMethods.getJsonValue(response,"place_id");
+        place_id = ReuasableMethods.getJsonValue(response,"place_id");
       requestSpecification = given().spec(createRequestSpecification()).queryParam("place_id",place_id);
       userMakeAPICallTo("GET",endpoint);
       String actualName = ReuasableMethods.getJsonValue(response,"name");
       assertEquals(expectedName,actualName);
+    }
+
+    @Given("user build the delete place payload")
+    public void userBuildTheDeletePlacePayload() {
+        responseSpecification = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+        requestSpecification = given().spec(createRequestSpecification())
+                .body(dataBuilder.createDeletePlacePlayload(place_id));
     }
 }

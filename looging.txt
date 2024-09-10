@@ -27,7 +27,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 08:49:45 GMT
+Date: Tue, 10 Sep 2024 09:04:12 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,17 +40,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "11e153aaa4743a51dedac42a4422e5eb",
+    "place_id": "280678b9091dd6433f53a3f2ce320a6f",
     "scope": "APP",
-    "reference": "4094f6e61589506c45a88e9406c123684094f6e61589506c45a88e9406c12368",
-    "id": "4094f6e61589506c45a88e9406c12368"
+    "reference": "f3a0342077255a920acfa83ade534b85f3a0342077255a920acfa83ade534b85",
+    "id": "f3a0342077255a920acfa83ade534b85"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=11e153aaa4743a51dedac42a4422e5eb
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=280678b9091dd6433f53a3f2ce320a6f
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=11e153aaa4743a51dedac42a4422e5eb
+				place_id=280678b9091dd6433f53a3f2ce320a6f
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,7 +59,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 08:49:45 GMT
+Date: Tue, 10 Sep 2024 09:04:12 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -84,7 +84,7 @@ Content-Type: application/json;charset=UTF-8
     "language": "FRENCH-IN"
 }
 Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
@@ -96,330 +96,20 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "accuracy": 100,
-    "name": "AUTOMATION-2",
-    "phone_number": "8877668899",
-    "address": "FRANCE",
-    "website": "https://testing.com",
-    "language": "SPANISH-IN",
-    "location": {
-        "lat": -38.383494,
-        "lng": 33.427362
-    },
-    "types": [
-        "shoe park",
-        "shop"
-    ]
+    "place_id": "280678b9091dd6433f53a3f2ce320a6f"
 }
 HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 08:49:47 GMT
+Date: Tue, 10 Sep 2024 09:04:13 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 194
+Content-Length: 15
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
 
 {
-    "status": "OK",
-    "place_id": "0148882930c51ebdc4703892c6817ce5",
-    "scope": "APP",
-    "reference": "efce2e73037c1eabf1068e7b67f60235efce2e73037c1eabf1068e7b67f60235",
-    "id": "efce2e73037c1eabf1068e7b67f60235"
-}
-Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=0148882930c51ebdc4703892c6817ce5
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-				place_id=0148882930c51ebdc4703892c6817ce5
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 08:49:47 GMT
-Server: Apache/2.4.52 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 231
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "location": {
-        "latitude": "-38.383494",
-        "longitude": "33.427362"
-    },
-    "accuracy": "100",
-    "name": "AUTOMATION-2",
-    "phone_number": "8877668899",
-    "address": "FRANCE",
-    "types": "shoe park,shop",
-    "website": "https://testing.com",
-    "language": "SPANISH-IN"
-}
-Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "accuracy": 90,
-    "name": "AUTOMATION-3",
-    "phone_number": "8877668899",
-    "address": "FRANCE",
-    "website": "https://filter.com",
-    "language": "HINDI-IN",
-    "location": {
-        "lat": -38.383494,
-        "lng": 33.427362
-    },
-    "types": [
-        "shoe park",
-        "shop"
-    ]
-}
-HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 08:49:48 GMT
-Server: Apache/2.4.52 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 194
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "status": "OK",
-    "place_id": "e0b9d863054cafd81113fa79daf92e21",
-    "scope": "APP",
-    "reference": "53be910f4ad6e499ab78aa2f905e9a6753be910f4ad6e499ab78aa2f905e9a67",
-    "id": "53be910f4ad6e499ab78aa2f905e9a67"
-}
-Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e0b9d863054cafd81113fa79daf92e21
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-				place_id=e0b9d863054cafd81113fa79daf92e21
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 08:49:48 GMT
-Server: Apache/2.4.52 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 227
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "location": {
-        "latitude": "-38.383494",
-        "longitude": "33.427362"
-    },
-    "accuracy": "90",
-    "name": "AUTOMATION-3",
-    "phone_number": "8877668899",
-    "address": "FRANCE",
-    "types": "shoe park,shop",
-    "website": "https://filter.com",
-    "language": "HINDI-IN"
-}
-Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "accuracy": 10,
-    "name": "AUTOMATION-4",
-    "phone_number": "8877668899",
-    "address": "FRANCE",
-    "website": "https://sameer.com",
-    "language": "ENGLISH-IN",
-    "location": {
-        "lat": -38.383494,
-        "lng": 33.427362
-    },
-    "types": [
-        "shoe park",
-        "shop"
-    ]
-}
-HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 08:49:50 GMT
-Server: Apache/2.4.52 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 194
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "status": "OK",
-    "place_id": "af6b165e93a518ac05a99b590e1474bd",
-    "scope": "APP",
-    "reference": "18555995d7817b85895e1c6a045f081418555995d7817b85895e1c6a045f0814",
-    "id": "18555995d7817b85895e1c6a045f0814"
-}
-Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=af6b165e93a518ac05a99b590e1474bd
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-				place_id=af6b165e93a518ac05a99b590e1474bd
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 08:49:50 GMT
-Server: Apache/2.4.52 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 229
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "location": {
-        "latitude": "-38.383494",
-        "longitude": "33.427362"
-    },
-    "accuracy": "10",
-    "name": "AUTOMATION-4",
-    "phone_number": "8877668899",
-    "address": "FRANCE",
-    "types": "shoe park,shop",
-    "website": "https://sameer.com",
-    "language": "ENGLISH-IN"
-}
-Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "accuracy": 40,
-    "name": "AUTOMATION-5",
-    "phone_number": "8877668899",
-    "address": "FRANCE",
-    "website": "https://dataset.com",
-    "language": "JAPANESE-IN",
-    "location": {
-        "lat": -38.383494,
-        "lng": 33.427362
-    },
-    "types": [
-        "shoe park",
-        "shop"
-    ]
-}
-HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 08:49:52 GMT
-Server: Apache/2.4.52 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 194
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "status": "OK",
-    "place_id": "d5a2c2e87199daec5c2d1072258ff188",
-    "scope": "APP",
-    "reference": "845e8e2a27a6ec929e6642f63ea51b8d845e8e2a27a6ec929e6642f63ea51b8d",
-    "id": "845e8e2a27a6ec929e6642f63ea51b8d"
-}
-Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=d5a2c2e87199daec5c2d1072258ff188
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-				place_id=d5a2c2e87199daec5c2d1072258ff188
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Tue, 10 Sep 2024 08:49:52 GMT
-Server: Apache/2.4.52 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 231
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "location": {
-        "latitude": "-38.383494",
-        "longitude": "33.427362"
-    },
-    "accuracy": "40",
-    "name": "AUTOMATION-5",
-    "phone_number": "8877668899",
-    "address": "FRANCE",
-    "types": "shoe park,shop",
-    "website": "https://dataset.com",
-    "language": "JAPANESE-IN"
+    "status": "OK"
 }

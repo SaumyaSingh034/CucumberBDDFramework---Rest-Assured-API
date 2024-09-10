@@ -27,4 +27,8 @@ public class DataBuilder {
         addPlace.setLocation(l);
         return addPlace;
     }
+
+    public String createDeletePlacePlayload(String place_id){
+        return "{\"place_id\":\""+place_id+"\"}";
+    }
 }
